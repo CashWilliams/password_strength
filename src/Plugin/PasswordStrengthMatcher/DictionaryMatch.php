@@ -27,7 +27,7 @@ class DictionaryMatch extends MatchBase {
    * @copydoc Match::match()
    */
   public static function match($password, array $userInputs = array()) {
-    return DictionaryMatch::match($password, $userInputs);
+    return ZxcvbnDictionaryMatch::match($password, $userInputs);
   }
 
   /**
